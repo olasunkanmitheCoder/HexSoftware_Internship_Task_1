@@ -56,7 +56,8 @@ def play_game():
 
         current_player = "O" if current_player == "X" else "X" #Switch players
 
-play_game() #Starts game 
+if __name__ == "__main__":
+    play_game() #Starts game 
 
 
 
